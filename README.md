@@ -35,6 +35,8 @@ ulsysid:
 NOTE: there is no official ulsys yet, so you will have to make your own. There also arent any wifi, ethernet or graphical processing unit (gpu) drivers yet do to their complexity, but we are actively working on them.
 
 GRUB may work but it can encaunter bugs because VGA uses functions from our personal bootloader.
+here is the official BIOS Legacy bootloader, its needed because of the frambuffer.asm or else framebuffer will not work properly:
+https://github.com/saphhic/Krypton-BIOS-Bootloader-1.0.git
 
 the kernel was severaly tested by me and vareity of AI models and the kernel according to the reports should run and work whitout any trouble, if you do encounter bugs or malfunctions, contact me.
 
